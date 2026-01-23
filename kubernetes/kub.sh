@@ -5,7 +5,7 @@ echo "starting kubernetes lifecycle automation"
 # -------- Variables --------
 NAMESPACE=beginnerr
 POD_NAME=myapp-pod
-IMAGE=nginx:latest
+IMAGE=docker.io/hello-html-css
 CONTAINER_PORT=80
 SERVICE_NAME=myapp-service
 SERVICE_TYPE=NodePort
